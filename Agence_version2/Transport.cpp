@@ -1,9 +1,20 @@
 #include "Transport.h"
 #include<string>
 
-Transport::Transport():Vaisseau(12,10,8,16,22,"YOT",9,13)
+Transport::Transport():Vaisseau(38000, 25,32,3,90,"Transporteur",4,7)
 {
 
+}
+Transport::Transport(Faction* faction) :Vaisseau(faction)
+{
+	ValeurMarchande = 38000;
+	Attaque = 25;
+	Defense = 32;
+	Vie = 3;
+	Capacite = 90;
+	Nom = "Transporteur";
+	Niveau = 4;
+	Experience = 7;
 }
 std::string Transport::to_string()
 {

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -129,15 +129,19 @@
   <ItemGroup>
     <ClCompile Include="Agence_version2.cpp" />
     <ClCompile Include="Faction.cpp" />
+    <ClCompile Include="FactoryVaisseau.cpp" />
     <ClCompile Include="Guerre.cpp" />
     <ClCompile Include="Livraison.cpp" />
+    <ClCompile Include="Station.cpp" />
     <ClCompile Include="Transport.cpp" />
     <ClCompile Include="Vaisseau.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Faction.h" />
+    <ClInclude Include="FactoryVaisseau.h" />
     <ClInclude Include="Guerre.h" />
     <ClInclude Include="Livraison.h" />
+    <ClInclude Include="Station.h" />
     <ClInclude Include="Transport.h" />
     <ClInclude Include="Vaisseau.h" />
   </ItemGroup>
