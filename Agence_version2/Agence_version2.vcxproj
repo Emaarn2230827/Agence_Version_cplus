@@ -128,19 +128,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Agence_version2.cpp" />
+    <ClCompile Include="Conquete.cpp" />
     <ClCompile Include="Faction.cpp" />
+    <ClCompile Include="FactoryPlanete.cpp" />
     <ClCompile Include="FactoryVaisseau.cpp" />
     <ClCompile Include="Guerre.cpp" />
     <ClCompile Include="Livraison.cpp" />
+    <ClCompile Include="Planete.cpp" />
     <ClCompile Include="Station.cpp" />
     <ClCompile Include="Transport.cpp" />
     <ClCompile Include="Vaisseau.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Conquete.h" />
     <ClInclude Include="Faction.h" />
+    <ClInclude Include="FactoryPlanete.h" />
     <ClInclude Include="FactoryVaisseau.h" />
     <ClInclude Include="Guerre.h" />
     <ClInclude Include="Livraison.h" />
+    <ClInclude Include="Planete.h" />
     <ClInclude Include="Station.h" />
     <ClInclude Include="Transport.h" />
     <ClInclude Include="Vaisseau.h" />

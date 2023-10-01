@@ -13,12 +13,12 @@ Vaisseau* FactoryVaisseau::getRandomVaisseau()
 	Vaisseau* vaisseau(0);
 	// Generer une race aleatoire
 	Faction* maFaction = getRandomFaction();
-
 	//Generer un type aleatoire
 	int typeV= Generate(1, 3);
 	if (typeV == 1)
 	{
 		vaisseau = new Guerre(maFaction);
+
 	}
 	else if(typeV == 2) 
 	{

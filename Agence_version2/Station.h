@@ -5,9 +5,10 @@
 using std::vector;
 class Station
 {
+public:
+	int PlatinumDisponible;
+	int VieStation;
 private:
-	int _platinumDisponible;
-	int _vieStation;
 	vector<Vaisseau*> _vecVaisseau;
 
 public:
@@ -18,6 +19,7 @@ public:
 	vector<Vaisseau*> getVaisseauDispo();
 	void init();
 	void ajouterVaisseau(Vaisseau* vaisseau);
+	void ameliorerVaisseau(vector<Vaisseau*> vecV);
 	virtual std::string to_string();
 };
 

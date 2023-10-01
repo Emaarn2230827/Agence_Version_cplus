@@ -1,6 +1,6 @@
 #pragma once
 #include<string>
-#include "Faction.h";
+#include "Faction.h"
 
 
 class Vaisseau
@@ -8,7 +8,7 @@ class Vaisseau
 private:
 	
 	Faction* _faction;
-protected:
+public:
 	  int ValeurMarchande;
 	  int Attaque;
 	  int Defense;

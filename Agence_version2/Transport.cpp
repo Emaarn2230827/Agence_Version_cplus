@@ -1,15 +1,15 @@
 #include "Transport.h"
 #include<string>
 
-Transport::Transport():Vaisseau(38000, 25,32,3,90,"Transporteur",4,7)
+Transport::Transport():Vaisseau(38000, 62,70,3,90,"Transporteur",4,7)
 {
 
 }
 Transport::Transport(Faction* faction) :Vaisseau(faction)
 {
 	ValeurMarchande = 38000;
-	Attaque = 25;
-	Defense = 32;
+	Attaque = 62;
+	Defense = 70;
 	Vie = 3;
 	Capacite = 90;
 	Nom = "Transporteur";
